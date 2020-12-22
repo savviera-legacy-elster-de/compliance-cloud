@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elster xmlns="http://www.elster.de/elsterxml/schema/v11">
+	<TransferHeader version="11">
+		<Verfahren>ElsterErklaerung</Verfahren>
+		<DatenArt>USt</DatenArt>
+		<Vorgang>send-Auth</Vorgang>
+		<Testmerker>700000004</Testmerker>
+		<HerstellerID>##herstellerid##</HerstellerID>
+		<DatenLieferant>datenlieferant</DatenLieferant>
+<Datei>
+            <Verschluesselung>CMSEncryptedData</Verschluesselung>
+            <Kompression>GZIP</Kompression>
+            <TransportSchluessel/>
+        </Datei>
+		<RC>
+			<Rueckgabe>
+				<Code>0</Code>
+				<Text />
+			</Rueckgabe>
+			<Stack>
+				<Code>0</Code>
+				<Text />
+			</Stack>
+		</RC>
+		<VersionClient>Programm XY</VersionClient>
+	</TransferHeader>
+	<DatenTeil>
+		<Nutzdatenblock>
+			<NutzdatenHeader version="11">
+				<NutzdatenTicket>##nutzdatenticket##</NutzdatenTicket>
+				<Empfaenger id = "F">##empfaenger##</Empfaenger>
+				<Zusatz>
+					<Info>....</Info>
+				</Zusatz>
+			</NutzdatenHeader>
+			<Nutzdaten>
+				<Jahressteuererklaerung version="2">
+					<Vorsatz unterfallart="50" ordNrArt="S" vorgang="01">
+						
+						
+						<StNr>##steuernummer##</StNr>
+                	        		<Zeitraum>##jahr##</Zeitraum>
+						<Erstelldatum>##jahr_erstellung####monat_erstellung####tag_erstellung##</Erstelldatum>
+			                        <Erstellzeit>080000</Erstellzeit>
+			                        <AbsName>Max Mustermann</AbsName>
+			                        <AbsStr>Musterstr. 1</AbsStr>
+			                        <AbsPlz>08150</AbsPlz>
+			                        <AbsOrt>Musterstadt</AbsOrt>
+			                        <Copyright>Steuer-Software</Copyright>
+			                        <Rueckuebermittlung bescheid="nein" />
+					</Vorsatz>
+
+			##kz22##
+
+##kzs##
+		
+
+		    <Feld index="01" lfdNr="00001" nr="3000013" wert="X" />
+
+		    <Feld index="01" lfdNr="00001" nr="3000901" wert="##name##" />
+
+                    <Feld index="01" lfdNr="00001" nr="3001101" wert="##address##" />
+	    	
+
+		    <Feld index="01" lfdNr="00001" nr="3001201" wert="##land##" />
+ 			
+		    <Feld index="01" lfdNr="00001" nr="3003303" wert="##kz38##"/>
+		    <Feld index="01" lfdNr="00001" nr="3003304" wert="##kz38%##" />
+		                        <Feld index="01" lfdNr="00001" nr="3006001" wert="##kz60##" />
+
+                                        <Feld index="01" lfdNr="00001" nr="3009201" wert="##kz152##" />
+
+
+					<Feld index="01" lfdNr="00001" nr="3009801" wert="##kz157##" />
+
+					<Feld index="01" lfdNr="00001" nr="3010201" wert="##kz160##" />
+
+                                        <Feld index="01" lfdNr="00001" nr="3010601" wert="##kz165##" />
+
+					<Feld index="01" lfdNr="00001" nr="3011101" wert="##kz167##" />
+					<Feld index="01" lfdNr="00001" nr="3011301" wert="##kz168##" />
+                                        <Feld index="01" lfdNr="00001" nr="3011401" wert="##kz169##" />
+
+		
+					<Feld index="01" lfdNr="00001" nr="3100902" wert="##kz82##" />
+                                        <Feld index="01" lfdNr="00001" nr="3100903" wert="##kz82%##" />
+					<Feld index="01" lfdNr="00001" nr="3101501" wert="##kz86##" />
+                                        <Feld index="01" lfdNr="00001" nr="3009401" wert="##kz153##" />
+
+
+					<Feld index="01" lfdNr="00001" nr="3006201" wert="##kz122##" />
+					<Feld index="01" lfdNr="00001" nr="3006301" wert="##kz123##" />
+					<Feld index="01" lfdNr="00001" nr="3006401" wert="##kz124##" />
+					<Feld index="01" lfdNr="00001" nr="3006901" wert="##kz131##" />
+					<Feld index="01" lfdNr="00001" nr="3009901" wert="##kz131##" />
+
+					<Feld index="01" lfdNr="00001" nr="3201301" wert="X" />
+					<Feld index="01" lfdNr="00001" nr="3201401" wert="X" />
+
+					<Feld index="01" lfdNr="00001" nr="3201501" wert="GmbH" />
+
+					<Feld index="01" lfdNr="00001" nr="3201601" wert="" />
+
+					<Feld index="01" lfdNr="00001" nr="3201402" wert="7g" />
+
+					<Feld index="01" lfdNr="00001" nr="3201602" wert="0" />
+
+					<Feld index="01" lfdNr="00001" nr="3201502" wert="" />
+
+					<Feld index="01" lfdNr="00001" nr="3201701" wert="X" />
+
+					<Feld index="01" lfdNr="00001" nr="3201101" wert="2" />
+
+
+					<Feld index="01" lfdNr="00001" nr="3001402" wert="1" />
+
+	    </Jahressteuererklaerung>
+
+	    </Nutzdaten>
+		</Nutzdatenblock>
+	</DatenTeil>
+</Elster>
